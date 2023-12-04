@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Sorter {
   public static void main(String[] args) {
-    int n = 5; // change this value to change the number of top members to display
+    int n = 4; // change this value to change the number of top members to display
     Map<String, Integer> visits = new HashMap<>();
     try {
       File file = new File("file.txt");
